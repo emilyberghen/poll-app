@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  a(href="/createpoll") Create a poll
+
+  h1 Question
+  a(href="#" class="answer a1") Answer 1
+  p(class="num1") 0
+  br
+  a(href="#" class="answer a2") Answer 2
+  p(class="num2") 0
