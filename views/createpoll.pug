@@ -1,6 +1,7 @@
 extends layout
 
 block content
+  h1(id="create") Create a poll
   form(action="post")
     .form-group
       label(for='question') Question
@@ -12,4 +13,4 @@ block content
       label(for='option2') Option 2
       input(name='option2' id='option2')
     .form-group
-      button(type='button' id='submit') submit
+      a(href="#" id='sub') submit
